@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 103674981}
   - component: {fileID: 103674986}
   - component: {fileID: 103674987}
+  - component: {fileID: 103674988}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -232,6 +233,20 @@ MonoBehaviour:
   blurAndFlaresShader: {fileID: 4800000, guid: be6e39cf196f146d5be72fbefb18ed75, type: 3}
   brightPassFilterShader: {fileID: 4800000, guid: 0aeaa4cb29f5d4e9c8455f04c8575c8c,
     type: 3}
+--- !u!114 &103674988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 103674980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34382083ad114a07d000fbfb8d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iterations: 1
+  blurSpread: 0.018
+  blurShader: {fileID: 4800000, guid: 57e6deea7c2924e22a5138e2b70bb4dc, type: 3}
 --- !u!1 &151777546
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +275,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 151777546}
   serializedVersion: 2
-  m_Mass: 0.1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 1
@@ -324,7 +339,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 151777546}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 20, z: 0}
+  m_LocalPosition: {x: 1, y: 20, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 1400343264}
@@ -340,7 +355,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.5, y: 10, z: 0}
+  m_ConnectedAnchor: {x: 1, y: 10, z: 0}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -683,7 +698,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1699145245}
   serializedVersion: 2
-  m_Mass: 0.1
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 1

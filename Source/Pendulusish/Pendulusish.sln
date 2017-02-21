@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{62D96CE3-905D-C8BB-6987-EB841BE9204B}") = "Pendulusish", "Assembly-CSharp-firstpass.csproj", "{03603CB5-B444-E670-E586-AE0F8800E557}"
+EndProject
+Project("{62D96CE3-905D-C8BB-6987-EB841BE9204B}") = "Pendulusish", "Assembly-CSharp.csproj", "{142CE956-BE8D-9D82-0143-D326C944AB27}"
+EndProject
+Project("{62D96CE3-905D-C8BB-6987-EB841BE9204B}") = "Pendulusish", "Assembly-CSharp-Editor-firstpass.csproj", "{D235AA86-2C6B-B536-52BA-37390A808098}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03603CB5-B444-E670-E586-AE0F8800E557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03603CB5-B444-E670-E586-AE0F8800E557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03603CB5-B444-E670-E586-AE0F8800E557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03603CB5-B444-E670-E586-AE0F8800E557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142CE956-BE8D-9D82-0143-D326C944AB27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142CE956-BE8D-9D82-0143-D326C944AB27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142CE956-BE8D-9D82-0143-D326C944AB27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142CE956-BE8D-9D82-0143-D326C944AB27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D235AA86-2C6B-B536-52BA-37390A808098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D235AA86-2C6B-B536-52BA-37390A808098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D235AA86-2C6B-B536-52BA-37390A808098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D235AA86-2C6B-B536-52BA-37390A808098}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
